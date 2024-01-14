@@ -20,7 +20,7 @@
   "homepage": "https://david-ginzburg.netlify.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/David-Ginzburg/weather-cli"
+    "url": "git+https://github.com/David-Ginzburg/weather-cli.git"
   },
   "bugs": {
     "url": "https://github.com/David-Ginzburg/weather-cli/issues"

@@ -4,7 +4,7 @@ import { promises } from 'fs';
 
 const filePath = join(homedir(), 'weather-data.json')
 
-export const TOKEN_DICTIONARY = {
+const TOKEN_DICTIONARY = {
 	token: 'token',
 	city: 'city'
 }
@@ -37,4 +37,4 @@ const isExist = async (path) => {
 	}
 }
 
-export { setKeyValue, getKeyValue };
+export { setKeyValue, getKeyValue, TOKEN_DICTIONARY };
